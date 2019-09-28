@@ -73,4 +73,4 @@ for i in range(n):
 	print('Enderço: ', pontosColeta[i][3], '.', pontosColeta[i][2])
 	print('Tipos de residuos: ', pontosColeta[i][1])
 	print('---------------------------')
-input()
+# ----- Imprindo resultado para o usuário ----
