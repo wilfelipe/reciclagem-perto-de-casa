@@ -1,6 +1,7 @@
 from math import radians, cos, sin, asin, sqrt
 import csv
-
+import os
+clear = lambda: os.system('cls')
 
 def haversine(coordenadasUsuario, coordenadasPonto):
   coordenadasUsuario = [radians(coordenadasUsuario[0]), radians(
@@ -24,7 +25,15 @@ def haversine(coordenadasUsuario, coordenadasPonto):
 
 
 
-coordenadasUsuario = [float(input('Digite sua latitude: ')), float(input('Digite sua longitude: '))] # Entrada das coordenadas do usuário
+
+while True:
+	try:
+		coordenadasUsuario = [float(input('Digite sua latitude: ')), float(input('Digite sua longitude: '))] # Entrada das coordenadas do usuário
+	except ValueError:
+		clear()
+		print('ERRO!!!\nDigite um valor real utilizando o "." para separar o valor inteiro dos decimais. Exemplo: "-22.123546"')
+	else:
+		break
 
 
 # Abrindo dataset com todos os pontos de coleta na região de Recife
@@ -66,6 +75,7 @@ pontosColeta.sort() # Organizando lista pela distância, gerada pela função ha
 
 # ----- Imprindo resultado para o usuário ----
 n = 3 # Número de resultados que serão imprimidos
+clear()
 print('\nPontos de coleta mais próximo de você:\n')
 for i in range(n):
 	print(pontosColeta[i][5])
