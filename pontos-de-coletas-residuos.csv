@@ -1,135 +1,17 @@
-"metal,isopor,papel,plastico,vidro","Recife","Av. Cais do Apolo","Prefeitura do Recife (área interna )","Prefeitura do Recife",-8.054732,-34.872078
-"metal,isopor,papel,plastico,vidro","Recife","Rua do Bom Jesus","Em frente ao Museu Arq. e Pça do Arsenal","Ecoponto",-8.061468,-34.871037
-"metal,isopor,papel,plastico,vidro","Recife","Av. Marques de Olinda","Calçada da cimento nassau( em frete ao marco zero)","Ecoponto",-8.063282,-34.871568
-"metal,isopor,papel,plastico,vidro","Recife","Av. Rio Branco","Calçada do Banco do Brasil","Ecoponto",-8.062334,-34.873668
-"metal,isopor,papel,plastico,vidro","Recife","Av. Rio Branco","Em frente a delgacia","Ecoponto",-8.062777,-34.872173
-"metal,isopor,papel,plastico,vidro","Santo Antônio","Avenida Dantas Barreto","Calçada da Praça da Independência","Ecoponto",-8.064094,-34.878483
-"metal,isopor,papel,plastico,vidro","São José","Rua Floriano Peixoto"," Dentro da Estação de Metrô","Ecoponto",-8.068556,-34.884470
-"metal,isopor,papel,plastico,vidro","Santo Antônio","Rua da Aurora","Calçada em frente à quadra, lado oposto ","Ecoponto",-8.054618,-34.876745
-"metal,isopor,papel,pastico,vidro","Santo Amaro","Rua Princesa Isabel ","Calçada do Parque 13 de Maio","Ecoponto",-8.058044,-34.882159
-"metal,isopor,papel,plastico,vidro","Ilha do Leite","Praça Miguel Cervantes","Primeira Ilha","Ecoponto",-8.065414,-34.893205
-"metal,isopor,papel,pastico,vidro","Paissandu","Avenida Lins Petit - Praça Chora Menino","Em frente da Praça Chora Menino","Ecoponto",-8.060445,-34.894878
-"metal,isopor,papel,plastico,vidro","Derby","Av. Agamenon Magalhães","Praça do Derby","Ecoponto",-8.056318,-34.898245
-"metal,isopor,papel,plastico,vidro","Santo Amaro","Av. Gov. Agamenon Magalhães","Praça do Parque Amorim","Ecoponto",-8.051932,-34.89503
-"metal,isopor,papel,plastico,vidro","Santo Amaro","Av. Gov. Agamenon Magalhães ","Ao lado da Avenida","Ecoponto",-8.043241,-34.886046
-"metal,isopor,papel,plastico,vidro","Santo Amaro","Av. da Saudade","Calçada do Cemitério de Santo Amaro","Ecoponto",-8.050546,-34.883397
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Campo Grande","Av. Agamenon Magalhães","EcoEstação Campo Grande :Em frente do Tacaruna Auto Peças","Ecoestação ",-8.039065,-34.878321
-"metal,isopor,papel,plastico,vidro","Hipódromo ","Rua Carlos Fernandes","Na Praça do Hipódromo","Ecoponto",-8.032588,-34.886414
-"metal,isopor,papel,plastico,vidro","Rosarinho","Av. Santos Dumont","Praça do Rosarinho","Ecoponto",-8.032848,-34.89619
-"metal,isopor,papel,plastico,vidro","Campo Grande","Av. Professor José dos Anjos","EcoEstação Arruda : Em frente da ponte do Rio Beberibe","Ecoponto",-8.020431,-34.87449
-"metal,isopor,papel,plastico,vidro","Graças","Rua Alberto Paiva","em frente ao Colégio São Luis","Ecoponto ",-8.04383,-34.901421
-"metal,isopor,papel,plastico,vidro","Parnamirim","Av. 17 de Agosto","Praça Dr. José Vilela","Ecoponto",-8.034167,-34.91129
-"metal,isopor,papel,plastico,vidro","Santana"," Rua Samuel Farias","Pça Comp. Antonio Maria, em frente ao Colégio Expoente","Ecoponto ",-8.040656,-34.914137
-"metal,isopor,papel,plastico,vidro","Morro da Conceição"," Rua Morro da Conceição","Praça do Morro da Conceição","Ecoponto ",-8.019382,-34.914654
-"metal,isopor,papel,plastico,vidro","Monteiro","Av.17 de Agosto","Pça em frente ao Colégio Silva Jardim","Ecoponto  ",-8.027919,-34.928247
-"metal,isopor,papel,plastico,vidro","Jaqueira","Rua Rui Barbosa","Cais da Jaqueira,lateral do Parque da Jaqueira","Ecoponto ",-8.037156,-34.90612
-"metal,isopor,papel,plastico,vidro","Jaqueira","Rua Rui Barbosa","Praça da Jaqueira-  área externa","Ecoponto ",-8.037134,-34.906194
-"metal,isopor,papel,plastico,vidro","Poco","Rua do Futuro","Praça Souto Filho,Jaqueira.","Ecoponto ",-8.036269,-34.902888
-"metal,isopor,papel,plastico,vidro","Poco","Estrada. Real do Poço.","Praça Rui Antunes","Ecoponto ",-8.036879,-34.924999
-"metal,isopor,papel,plastico,vidro","Macaxeira","Av. Norte, Academia da Cidade do Buriti","em frente da Academia da Cidade do Burit","Ecoponto ",-8.016896,-34.929414
-"metal,isopor,papel,plastico,vidro","Santana","R. Jorge Gomes de Sá (Parque de Santana)","em frente do Parque de Santana ","Ecoponto ",-8.041134,-34.917631
-"metal,isopor,papel,plastico,vidro","Casa Amarela"," Av. Norte.","Praça do Trabalho, ","Ecoponto ",-8.023107,-34.914341
-"metal,isopor,papel,plastico,vidro","Casa Amarela"," Av.17 de Agosto.","Praça da Vitória Régia","Ecoponto ",-8.035752,-34.920197
-"metal,isopor,papel,plastico,vidro","Cordeiro"," Av. do Forte.","Praça Arraial do Bom Jesus,","Ecoponto ",-8.057741,-34.93114
-"metal,isopor,papel,plastico,vidro","Ilha Joana Bezerra","Av. Beira Rio ","Praça da Academia da Cidade","Ecoponto",-8.046621,-34.904167
-"metal,isopor,papel,plastico,vidro","Madalena","Rua José Múcio Monteiro","Estacionamento da FCAP-UPE","Ecoponto ",-8.061194,-34.902833
-"metal,isopor,papel,plastico,vidro","Torre","Rua Prof. Barreto Campelo","Praça Prof. Barreto Campelo","Ecoponto ",-8.047006,-34.913753
-"metal,isopor,papel,plastico,vidro","Engemho do Meio","Rua Antonio Curado","Praça da Academia da Cidade Arnaldo Assunção.","Ecoponto ",-8.057281,-34.942328
-"metal,isopor,papel,plastico,vidro","Iputinga","Rua Bom Pastor","Praça do Bom Pastor","Ecoponto ",-8.04891,-34.940114
-"metal,isopor,papel,plastico,vidro","Torre","Rua Real da Torre","Centro Educacional Paulo Freire da Prefeitura","Ecoponto",-8.045157,-34.910046
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Torre","Rua Ciclovia República da Argélia","Em frente da Rua Cristiano Cordeiro","Ecoestação ",-8.044175,-34.916013
-"metal,isopor,papel,plastico,vidro","San Martin","Rua Dezesseis de Outubro - Cordeiro","Em frente do Parque Arraial Novo do Bom Jesus","Ecoponto",-8.058085,-34.931176
-"metal,isopor,papel,plastico,vidro","San Martin","Rua Elphego Jorge de Souza","ao lado do CHESF - Companhia Hidroelétrica do São Francisco","Ecoponto",-8.064149,-34.931022
-"metal,isopor,papel,plastico,vidro","San Martin","Av.General San Martin","Academia da Cidade de San Martin.","Ecoponto",-8.066808,-34.927572
-"metal,isopor,papel,plastico,vidro","Imbiribeira","Avenida Mascarenhas de Moraes ","em frente à COPERGÁS","Ecoponto ",-8.087282,-34.907481
-"metal,isopor,papel,plastico,vidro","Ibura","Av. Mascarenhas de Morais ","Praça Aeroporto dos Guararapes","Ecoponto",-8.133662,-34.916759
-"eletrônico","San Martin","Rua Vinte e Um de Abril, 3370 ","EMPREL","EMPREL",-8.0676699,-34.938081
-"eletrônico","Boa Vista","Av. Conde da Boa Vista, 867 ","URB","URB",-8.0583029,-34.888518
-"metal,isopor,papel,plastico,vidro","Boa Viagem","Rua Visc. de Jequitinhonha, 2674",,"Ecoponto",-8.136264,-34.903703
-"eletrônico","Curado","Rodovia BR 232, s/n - Curado",,"Jardim Botânico do Recife",-8.076071,-34.966706
-"eletrônico","Areias","Av. Recife, 3587 - Areias","Próximo ao Hospital Geral de Areias","EMLURB",-8.1020216,-34.927986
-"eletrônico","Beberibe","Rua Melânio de Barros Correia, 26",,"ESCOLA PROFISSIONALIZANTE DE BEBERIBE ZULEIDE GOMES MONTEIRO",-8.0030577,-34.899059
-"eletrônico","Casa Amarela","Av. Norte Miguel Arraes, 5600",,"ESCOLA PROFISSIONAL DOM BOSCO",-8.0215479,-34.916639
-"eletrônico","Totó","Av 11 de Agosto","Bidu Krause","ESCOLA PROFISSIONAL ANEXA AO CSU BIDU KRAUSE",-8.0797775,-34.970345
-"eletrônico","Recife","Av. Cais do Apolo","Mídia Express","Prefeitura do Recife",-8.0545472,-34.871993
-"pilhas e baterias ","Casa Forte","Dr. João Santos Filho, 255",,"Shopping Plaza no estacionamento do térreo ",-8.036359,-34.913042
-"pilhas e baterias ","Boa Viagem","Rua Padre Carapuceiro, 777",,"Nagem Informática ",-8.120844,-34.904384
-"pilhas e baterias ","Casa Forte","Praça Jorn. Francisco P. Queiroz, 310",,"Hiper Bompreço de Casa Forte",-8.037597,-34.913750
-"pilhas e baterias ","Casa Amarela","Av. Norte Miguel Arraes de Alencar, 6061 ",,"Deskontão Atacadista",-8.021132,-34.919673
-"pilhas e baterias ","Iputinga","Av. Prof. Moraes Rego, 1235",,"Universidade Federal de Pernambuco – UFPE",-8.052328,-34.945095
-"metal,isopor,papel,plastico,vidro","Imbiribeira","Rua Nova Verona","Praça da Academia da Cidade/Lagoa do Araçá ","Ecoponto",-8.096588,-34.915461
-"metal,isopor,papel,plastico,vidro","Boa Viagem","Av. Barão de Souza Leão ","Posto Tiradentes/BR.","Ecoponto",-8.132921,-34.912598
-"metal,isopor,papel,plastico,vidro","Boa Viagem","Rua Marques de Valença ","Lateral da Igreja Matriz de Boa Viagem","Ecoponto",-8.131763,-34.900649
-"metal,isopor,papel,plastico,vidro","Boa Viagem","Av. Boa Viagem","Parque Dona Lindú","Ecoponto",-8.140939,-34.903304
-"metal,isopor,papel,plastico,vidro","Boa Viagem","Rua Dr. Nilo Dornelas Câmara","Praça de Boa Viagem (calçada voltada para  a praia)","Ecoponto",-8.132314,-34.900105
-"metal,isopor,papel,plastico,vidro","Boa Viagem","Av. Boa Viagem","Terceiro Jardim de Boa Viagem","Ecoponto",-8.108514,-34.888547
-"metal,isopor,papel,plastico,vidro","Boa Viagem","Av. Boa Viagem","Segundo Jardim de Boa Viagem","Ecoponto",-8.105270,-34.887063
-"metal,isopor,papel,plastico,vidro","Boa Viagem","Av. Boa Viagem","Primeiro Jardim de Boa Viagem","Ecoponto",-8.101473,-34.885305
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Curado","Rua Nelson de Sena","Em frente do : INST de Desenvol Econômico Social Produtivo","EcoEstação Totó",-8.077703,-34.971841
-"metal,isopor,papel,plastico,vidro","Tejipio","AV. Liberdade","Em frente do portão Cemitério Parque das Flores","Ecoponto",-8.082139,-34.960278
-"metal,isopor,papel,plastico,vidro","Tejipio","AV. Dr. José Rufino","Saída da Estação Tejipió","Ecoponto",-8.090814,-34.957087
-"metal,isopor,papel,plastico,vidro","Barro","Rua José Benedito Mouri Fernandes","Rua Cap. Ponciano","Ecoponto",-8.095265,-34.943530
-"metal,isopor,papel,plastico,vidro","Areias","Rua Ipojuca","Praça Heróis da Restauração","Ecoponto",-8.097034,-34.936117
-"metal,isopor,papel,plastico,vidro","Areias","Rua Alvaro Fragoso","ao lado da Panificação Com Cardeal Ltda","Ecoponto",-8.096060,-34.931722
-"metal,isopor,papel,plastico,vidro","Jardim São Paulo","Rua Nossa Senhora de Fatima","Praça de Jardim São Paulo","Ecoponto",-8.081960,-34.938121
-"metal,isopor,papel,plastico,vidro","Cohab","Av. Rio Largo ","Atras do E.M. Cristiano Cordeiro","EcoEstação ",-8.116778,-34.943389
-"metal,isopor,papel,plastico,vidro","Ibura","Rua Rio das Pedras","Tech Infor Informática","EcoEstação",-8.116722,-34.943280
-"metal,isopor,papel,plastico,vidro","Caçote","Av. Recife ","em frente do EMLURB","Ecoponto",-8.102002,-34.928270
-"metal,isopor,papel,plastico,vidro","Poço da Panela","Rua Eng. Oscár Ferreira, 338",,"Amape-Associação Meio Ambiente Preservar e Educar",-8.029387,-34.922791
-"metal,isopor,papel,plastico,vidro","Dois Unidos","Rua Mamede Coelho, 53",,"Associação de trapeiros do Emaús",-8.005428,-34.903342
-"metal,isopor,papel,plastico,vidro","Parnamirim","Rua Desembargador Góis Cavalcante, 261",,"Pão de Açúcar do Parnamirim ",-8.031581,-34.908450
-"eletrônico","Dois Unidos","Rua Mamede Coelho, 53",,"Associação de trapeiros do Emaús",-8.005428,-34.903342
-"eletrônico","Guabiraba","Av. da Recuperação, 318",,"CRC Marista",-8.016326,-34.940215
-"Medicamentos","Iputinga","Av. Prof. Moraes Rego, 1235",," Universidade Federal de Pernambuco – UFPE",-8.052322,-34.945116
-"Medicamentos","Torre ","Rua José Bonifácio, 1315",,"Drogarias Carrefour ",-8.040099,-34.909766
-" Óleos de Cozinha","Afogados","Rua da Paz, 82",,"ASA Portaria",-8.079229,-34.904414
-" Óleos de Cozinha","Afogados","Rua São Miguel, 250",,"Procuradoria Geral de Justiça",-8.066962,-34.885139
-" Óleos de Cozinha"," Bomba do Hemetério","Rua Chã de Alegria, 117",,"Escola Prof. Mardonio de Andrade Lima Coelho",-8.020803,-34.903803
-"eletrônico","Jaqueira","Rua do futuro, 959",,"Econúcleo Jaqueira ",-8.035791,-34.904969
-"eletrônico"," Boa Vista","Av. Governador Carlos de Lima Cavalcanti","Ao lado do Posto Dom Bosco","Empresa de Manutenção e Limpeza Urbana",-8.056214,-34.895461
-"eletrônico","Água Fria ","Av. Aníbal Benévolo, 1552","ao lado Centro Comunitária da Paz - COMPAZ- Alto Santa Terezinha","Compaz Alto Santa Terezinha",-8.010403,-34.903292
-"eletrônico","Jiquiá","Av. General San Martin","Ao lado do Condomínio Morada Recife Antigo","Compaz San Martin",-8.060022,-34.926157
-" Óleos de Cozinha","Boa viagem","Rua Professor Eduardo Wanderley Filho","Ao lado do Condomínio  Ed. Sky Boa Viagem","colegio boa viagem",-8.110761,-34.894612
-" Óleos de Cozinha","Boa Viagem","Rua Padre Cabral","Em frente a loja Miss Meria","Colégio Madre de Deus",-8.133723,-34.907142
-" Óleos de Cozinha","Boa vista","Rua da Aurora"," Ao lado da Compesa","Tribunal de Contas do Estado de Pernambuco",-8.056492,-34.878624
-" Óleos de Cozinha","Santo Antônio","Rua Moacir Boracho","Ao lado da Secretaria da fazenda do estado de pernambuco","Tribunal de Justiça (Ed. Paula Batista)",-8.062223,-34.876877
-" Óleos de Cozinha","Guabiraba","Av. da Recuperação, 318",,"Centro Marista Circuito Jovem",-8.016346,-34.940092
-" Óleos de Cozinha","Engenho do Meio","Rua Bom Pastor, 1406",,"Escola Municipal Engenho do Meio",-8.049916,-34.939615
-" Óleos de Cozinha","Espinheiro","Av. João de Barros, 1545","Nº1545/1563"," Colégio Saber Viver Espinheiro",-8.041006,-34.891821
-" Óleos de Cozinha","Graças","Av. Rui Barbosa, 1680",,"Colégio Núcleo",-8.038775,-34.904595
-" Óleos de Cozinha","Ibura","Av. Ministro Oliveira Salazar, 228",,"SESI Ibura",-8.109953,-34.937659
-" Óleos de Cozinha","Ibura","Av. Pernambuco","Em frete do NÚCLEO DE SEGURANÇA COMUNITÁRIA","Escola Maria Sampaio de Lucena",-8.121299,-34.946750
-" Óleos de Cozinha","Imbiribeira","Av. Marechal Mascarenhas de Morais, 1919",,"Central de Juizados Especiais",-8.099596,-34.909465
-" Óleos de Cozinha","Imbiribeira","Rua Conego Lira, 282",,"Escola Anita Garibalde",-8.095385,-34.912275
-" Óleos de Cozinha","Ipsep","Rua Saturnino Meireles, s/n",,"EREM Engenheiro Lauro Dinis",-8.114453,-34.921247
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Ibura","Rua Rio Tapado, s/n",,"Ecoestação",-8.116730339,-34.9436
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Cohab","Av. Santos, s/n",,"Ecoestação",-8.115148417,-34.9536
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Totó","Rua Onde de Agosto, s/n",,"Ecoestação",-8.077710064,-34.9718
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Campo Grande","Avenida Agamenon Magalhães","Com a rua Odorico Mendes","Ecoestação",-8.039064362,-34.8784
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Imbiribeira","Avenida Mascarenhas de Morais","Sentido cidade/subúrbio, próximo ao viaduto Tancredo Neves","Ecoestação",-8.123083048,-34.9133
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Arruda","Rua Professor José dos Anjos","(Ao lado do Habitacional Palha de Arroz","Ecoestação",-8.022630485,-34.88009465
-"lixo organico, metralhas, móveis, materiais recicláveis, eletroeletronico, utensílios domésticos e resíduos de podas","Torroes","Rua Maestro Jones Johnson, s/n",,"Ecoestação",-8.057749509,-34.93538838
-"metal,isopor,papel,plastico,vidro","Madalena","Rua Visconde de Albuquerque ","Praça Eça de Queiroz","Ecoponto",-8.050744,-34.906654
-"metal,isopor,papel,plastico,vidro","Madalena","Avenida Abdias de Carvalho","Fcap","Ecoponto",-8.061185,-34.902842
-"metal,isopor,papel,plastico,vidro","Boa Viagem","Av. Boa Viagem ","Praçinha de Boa Viagem, calçada voltada para  a praia","Ecoponto",-8.132223,-34.900055
-" Óleos de Cozinha","Aflitos","Av. Cons. Rosa  Silva","SEMAS",,-8.0398523,-34.9015293
-" Óleos de Cozinha","Areias","Av. Recife, 3587","EMLURB",,-8.1018629,-34.9304351
-" Óleos de Cozinha","Dois Irmãos","Praça Faria Neves, s/n","Compesa - Dois irmãos",,-8.015659,-34.9431149
-" Óleos de Cozinha","Jardim São Paulo","Rua Capetinga, s/n","Escola Trajano de Mendoca",,-8.0785098,-34.9435062
-" Óleos de Cozinha","Recife Antigo","Av. Rio Branco, 193","EREM Porto Digital",,-8.0627359,-34.8755563
-" Óleos de Cozinha","Santo Amaro","Av. Cruz Cabugá, 767","Serviço Social da Indústria - Sesi",,-8.0479,-34.8798227
-" Óleos de Cozinha","Totó","Rua Onze de Agosto, 564","Compesa",,-8.0784466,-34.973390
-" Óleos de Cozinha","Vasco da gama","Rua Vasco da Gama,145","SESI Vasco da Gama",,-8.0192679,-34.9237825
-"eletronico, metal,isopor,papel,plastico,vidro","Imbiribeira","Rua Antônio Cardoso da Fonte, n 483","Pro-Recife","Cooperativa",-8.0977593,-34.921774
-"eletronico, oleo de cozinha, metal,isopor,papel,plastico,vidro","Afogados ","Rua Oscár Melo","COOPAGRES","Cooperativa",-8.0977611,-34.9283407
-"metal,isopor,papel,plastico,vidro","Arruda","Rua Farias Neves, n 982","Palha de arroz","Cooperativa",-8.0203083,-34.8764555
-"metal,isopor,papel,plastico,vidro","São José","Avenida Sul, S/N ","Cooperativa Verde Nossa Vida","Cooperativa",-8.0754417,-34.8909016
-"metal,isopor,papel,plastico,vidro","São José","Avenida Sul, S/N","Cooperativa Esperança Viva","Cooperativa",-8.0754159,-34.8910941
-"metal,isopor,papel,plastico,vidro","São José","Travessa do Gusmão","Cooperativa do Gusmão","Cooperativa",-8.0722601,-34.8869336
-"metal,isopor,papel,plastico,vidro","Torre","Rua Eliéser Olímpio de Moura, 100 A","Cooperativa Recicla Torre","Cooperativa",-8.0445617,-34.9151526
-"metal,isopor,papel,plastico,vidro","Dois Unidos/Passarinho","Av. Chagas Ferreira, 601","Cooperativa Resgatando Vidas","Cooperativa",-8.0050971,-34.9144973
-"Pneu","Madalena","Av. Abdias de Carvalho, 341","Pneus Pirelle",,-8.0614164,-34.9087182
-"Pneu","Espinheiro","Av. Norte, 2261","Bridgestone Pneus",,-8.0392157,-34.893334
-"Pneu","São José","Rua Lourenço de Sá, 165","Pneu Verde",,-8.0743288,-34.8980205
-"Lampada","Imbiribeira","Rua Francisco Correa de Moraes, 100","Carrefour RBV Boa Viagem",,-8.1241489,-34.9132995
-"Lampada","Torre","Rua José Bonifácio, 1315","Carrefour REC Recife",,-8.0404452,-34.9125314
+"Vidros, Metais, Plásticos e Papéis",Campinas,"R. Dante Suriani, 2-382",Chácara Cneo,Ecoponto Jardim ,-22.903883,-47.105823
+"Vidros, Metais, Plásticos e Papéis",Campinas,"R. Dr Lázaro Pinto Barroso, 700",Cidade Satélite Íris ,Cooperativa de Trabalho dos Catadores de Materiais Recicláveis,-22.930921,-47.151572
+"Vidros, Metais, Plásticos e Papéis",Campinas,"Av. Santa Isabel, 2300",Barçao Geraldo,Ecoponto Ponto Verde,-22.817622,-47.097850
+"Vidros, Metais, Plásticos e Papéis",Campinas,"R. Saldanha da Gama, 77",Vila Costa e Silva,Ecoponto Vila Costa e Silva,-22.855585,-47.067583
+"Vidros, Metais, Plásticos e Papéis",Campinas,"R. Manoel Gomes Ferreira, 42",Parque Tropical ,Ecoponto Vila União,-22.936055,-47.118054
+"Vidros, Metais, Plásticos e Papéis",Campinas,"Av. Mal. Rondon, ",Jardim Chapadão,Ecoponto Jardim Eulina,-22.892240,-47.100945
+"Vidros, Metais, Plásticos e Papéis",Campinas,Parque Ecologico Campinas,Parque Ecologico,Ponto Verde Parque Ecológico,-22.899910,-47.019531
+"Vidros, Metais, Plásticos e Papéis",Campinas,"R. Estácio de Sá, 577",Jardim Santa Genebra,Cooperativa de Recicláveis Santa Genebra,-22.851818,-47.075009
+Pneus,Campinas,"Av. Prefeito Faria Lima, 630",Parque Italia,Descarte de Pneus/Departamento de Limpeza Urbana,-22.915431,-47.071117
+"Vidros, Metais, Plásticos e Papéis",Campinas,"Rua Francisco Theodoro, 1050",Vila Industrial,Região Central,-22.908967,-47.066968
+"Vidros, Metais, Plásticos e Papéis",Campinas,Rua Celso Soares Colto,Parque Itajaí,Parque Itajaí,-22.961648,-47.192331
+"Vidros, Metais, Plásticos e Papéis",Campinas,Rua Placida Pretini,Parque São Jorge,Parque São Jorge,-22.895982,-47.157851
+"Vidros, Metais, Plásticos e Papéis",Campinas,Rua José Martins Lourenço,Jardim Bom Sucesso,Jardim São Gabriel,-22.942435,-47.029831
+"Vidros, Metais, Plásticos e Papéis",Campinas,"Rua dos Cambarás, 200",Vila Boa Vista,Parque via Norte,-22.885794,-47.128180
+"Vidros, Metais, Plásticos e Papéis",Campinas,Rua Góia Jr.,Res. Parque Rio Das Pedras,Vida Nova,-22.797185,-47.083559
+"Vidros, Metais, Plásticos e Papéis",Campinas,Avenida São José dos Campos,Parque São Martinho,Vila Campo Sales,-22.946911,-47.055111
+"Vidros, Metais, Plásticos e Papéis",Campinas,"Rua Dom Pedro, 464",Jardim Conceição,Sousas,-22.899055,-46.979964
