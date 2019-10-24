@@ -4,7 +4,7 @@ import os
 
 def clear(mensagem):
 	os.system('cls')
-	print('----------', mensagem, '----------')
+	print('--------------------', mensagem, '--------------------')
 	
 
 '''
@@ -30,7 +30,7 @@ def haversine(coordenadasUsuario, coordenadasPonto):
 
 def pontoColetaNearMe():
 	while True:
-		clear('Encontre o ponto de coleta mais próximo de você')
+		clear('Ponto de coleta mais próximo de você')
 		try:
 			coordenadasUsuario = [float(input('Digite sua latitude (Exemplo: -22.9006708): ')), float(input('Digite sua longitude (Exemplo: -47.1672872): '))] # Entrada das coordenadas do usuário
 		except ValueError:
@@ -93,8 +93,14 @@ def cadastrarPonto():
 
 while True:
 	clear("Reciclagem Perto de Casa")
+	print("Para ver qual o ponto de coleta mais próximo de você, digite '1'")
+	print("Para ver todos os locais que você pode reciclar, digite '2'")
+	print("Para cadastrar algum ponto de coleta que você conhece, digite '3'")
+	print("Para você ver quem criou esse projeto, digite '4'" )
+	print("Para sair, digite '5'" )
+	
 	try:
-		choice = int(input('1. Encontre ponto de coleta mais próximo de você\n2. Todos pontos de coleta cadastrados\n3. Cadastrar ponto de coleta\n4. Sobre nós\n5. Sair\nDigite uma opção: '))
+		choice = int(input("\nQual a sua escolha? (1, 2, 3, 4 ou 5?): "))
 	except:
 		pass
 	else:
@@ -103,8 +109,8 @@ while True:
 		elif choice == 2:
 			allPontos()
 		elif choice == 3:
-			sobre()
-		elif choice == 4:
 			cadastrarPonto()
+		elif choice == 4:
+			sobre()
 		elif choice == 5:
 			exit()
