@@ -94,7 +94,7 @@ def cadastrarPonto():
 while True:
 	clear("Reciclagem Perto de Casa")
 	try:
-		choice = int(input('1. Encontre ponto de coleta mais próximo de você\n2. Todos pontos de coleta cadastrados\n3. Sobre\n4. Cadastrar ponto de coleta\n5. Sair\nDigite um valor: '))
+		choice = int(input('1. Encontre ponto de coleta mais próximo de você\n2. Todos pontos de coleta cadastrados\n3. Cadastrar ponto de coleta\n4. Sobre nós\n5. Sair\nDigite uma opção: '))
 	except:
 		pass
 	else:
