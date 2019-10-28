@@ -1,6 +1,7 @@
 from math import radians, cos, sin, asin, sqrt
 import csv
 import os
+from geopy.distance import geodesic
 
 
 def clear(mensagem):
@@ -13,26 +14,8 @@ def clear(mensagem):
 '''
 
 
-def haversine(coordenadasUsuario, coordenadasPonto):
-	coordenadasUsuario = [radians(coordenadasUsuario[0]), radians(
-		coordenadasUsuario[1])]  # Convertendo valores de graus para radiano
-	coordenadasPonto = [radians(coordenadasPonto[0]), radians(
-		coordenadasPonto[1])]  # Convertendo valores de graus para radiano
-	# Delta da latitude entre os dois pontos
-	dlat = coordenadasUsuario[0] - coordenadasPonto[0]
-	# Delta da longitude entre os dois pontos
-	dlon = coordenadasUsuario[1] - coordenadasPonto[1]
-
-	# ----- Formula Haversine ----
-	a = sin(dlat/2)**2 + \
-            cos(coordenadasUsuario[0]) * \
-            cos(coordenadasPonto[0]) * sin(dlon/2)**2
-	c = 2 * asin(sqrt(a))
-	# ----- Formula Haversine ----
-
-	R = 6371  # Raio da terra em Km
-
-	return c * R  # Retornando a distância em Kilômetros entre os dois pontos.
+def distancia(coordenadasUsuario, coordenadasPonto):
+	return geodesic(coordenadasUsuario, coordenadasPonto).miles * 1.609
 
 
 def pontoColetaNearMe():
@@ -84,10 +67,10 @@ def pontoColetaNearMe():
 			coordenadasPonto = [float(row[5]), float(row[6])]
 
 			# Adicionando a distância do ponto de coleta para o usuário mais os dados desse ponto, para a matriz pontosColeta
-			pontosColeta.append([haversine(coordenadasUsuario, coordenadasPonto),
+			pontosColeta.append([distancia(coordenadasUsuario, coordenadasPonto),
                             row[0], row[1], row[2], row[3], row[4], row[5]])
 
-			# Organizando lista pela distância, gerada pela função haversine, do mais próximo ao mais distante.
+			# Organizando lista pela distância, gerada pela função distancia, do mais próximo ao mais distante.
 			pontosColeta.sort()
 
 			# pontosColeta[x][0] = Distância do ponto para o usuário, em Km.
