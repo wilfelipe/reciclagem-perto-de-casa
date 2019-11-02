@@ -136,7 +136,12 @@ def allPontos():
 
 
 def sobre():
-	pass
+	print("Feito por Alejandro Montes - RA:")
+	print("Feito por Igor Carvalho - RA: ")
+	print("Feito por Roger - RA: ")
+	print("Feito por Thiago M. Nóbrega - RA:F028BF-2")
+	print("Feito por Wilson Felipe - RA: ")
+	input('Pressione ENTER para continuar...')
 
 
 def cadastrarPonto():
