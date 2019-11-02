@@ -19,18 +19,42 @@ def distancia(coordenadasUsuario, coordenadasPonto):
 
 
 def pontoColetaNearMe():
+	modoPesquisa = 'endereco'
+	erro = 0
 	while True:
 		clear('Ponto de coleta mais próximo de você')
-		cidade = input('Cidade: ')
-		estado = input('Estado: ')
-		endereco = input('Endereço: ')
-		try:
+		if modoPesquisa == 'endereco':
+			cidade = input('Cidade: ')
+			estado = input('Estado: ')
+			endereco = input('Endereço: ')
 			loc = geolocator.geocode(endereco + ',' + cidade + ',' + estado, addressdetails=True)
-			coordenadasUsuario = [loc.latitude, loc.longitude]
-		except ValueError:
-			pass
+			try:
+				coordenadasUsuario = [loc.latitude, loc.longitude]
+			except:
+				erro = 1
+			else:
+				break
 		else:
-			break
+			try:
+				coordenadasUsuario = [float(input('Digite sua latitude (Exemplo: -22.9006708): ')), float(
+				input('Digite sua longitude (Exemplo: -47.1672872): '))]  # Entrada das coordenadas do usuário
+			except:
+				erro = 1
+			else:
+				break
+
+		if erro == 1:
+			clear("ERRO! Não encontramos seu endereço")
+			try:
+				choice = int(input("1. Tentar novamente\n2. Procurar usando coordenadas\n\nDigite uma opção: "))
+			except:
+				pass
+			else:
+				if choice == 1:
+					modoPesquisa = 'endereco'
+				else:
+					modoPesquisa = 'coordenadas'
+				erro = 0
 	# Abrindo dataset com todos os pontos de coleta na região de Recife
 	with open('pontos-de-coletas-residuos.csv', encoding="utf8") as f:
 		reader = csv.reader(f)
@@ -82,7 +106,13 @@ def allPontos():
 
 
 def sobre():
-	pass
+	clear('Sobre Nós')
+	print("Feito por Alejandro Montes - RA:")
+	print("Feito por Igor Carvalho - RA: ")
+	print("Feito por Roger - RA: ")
+	print("Feito por Thiago M. Nóbrega - RA:F028BF-2")
+	print("Feito por Wilson Felipe - RA: ")
+	input('Pressione ENTER para continuar...')
 
 
 def cadastrarPonto():
