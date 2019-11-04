@@ -28,8 +28,8 @@ def pontoColetaNearMe():
 			cidade = input('Cidade: ')
 			estado = input('Estado: ')
 			endereco = input('Endereço: ')
-			loc = geolocator.geocode(endereco + ',' + cidade + ',' + estado, addressdetails=True)
 			try:
+				loc = geolocator.geocode(endereco + ',' + cidade + ',' + estado, addressdetails=True)
 				coordenadasUsuario = [loc.latitude, loc.longitude]
 			except:
 				erro = 1
@@ -105,28 +105,15 @@ def pontoColetaNearMe():
 
 ### --- Inicio da Função que mostra todos os locais disponiveis para reciclagem --- ###
 def allPontos():
-	print("------------------------------------------")
-	print("MATERIAIS / CIDADE / RUA / COORDENADAS")
-	print("------------------------------------------\n\n")
-
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Dante Suriani, 2-382,Chácara Cneo,Ecoponto Jardim / -22.903883,-47.105823\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Dr Lázaro Pinto Barroso, 700',Cidade Satélite Íris ,Cooperativa de Trabalho dos Catadores de Materiais Recicláveis / -22.930921,-47.151572\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Av. Santa Isabel, 2300',Barçao Geraldo,Ecoponto Ponto Verde / -22.817622,-47.097850\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Saldanha da Gama, 77',Vila Costa e Silva,Ecoponto Vila Costa e Silva / -22.855585,-47.067583\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Manoel Gomes Ferreira, 42,Parque Tropical ,Ecoponto Vila União / -22.936055,-47.118054\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Av. Mal. Rondon, ',Jardim Chapadão,Ecoponto Jardim Eulina / -22.892240,-47.100945\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Parque Ecologico Campinas,Parque Ecologico,Ponto Verde Parque Ecológico / -22.899910,-47.019531\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Estácio de Sá, 577',Jardim Santa Genebra,Cooperativa de Recicláveis Santa Genebra / -22.851818,-47.075009\n")
-	print("Pneus / Campinas / Av. Prefeito Faria Lima, 630 Parque Italia,Descarte de Pneus/Departamento de Limpeza Urbana / -22.915431,-47.071117\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Francisco Theodoro, 1050',Vila Industrial,Região Central / -22.908967,-47.066968\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Celso Soares Colto,Parque Itajaí,Parque Itajaí / -22.961648,-47.192331\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Placida Pretini,Parque São Jorge,Parque São Jorge / -22.895982,-47.157851\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua José Martins Lourenço,Jardim Bom Sucesso,Jardim São Gabriel / -22.942435,-47.029831\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua dos Cambarás, 200',Vila Boa Vista,Parque via Norte / -22.885794,-47.128180\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Góia Jr.,Res. Parque Rio Das Pedras,Vida Nova /-22.797185,-47.083559\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Avenida São José dos Campos,Parque São Martinho,Vila Campo Sales / -22.946911,-47.055111\n")
-	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Dom Pedro, 464',Jardim Conceição,Sousas / -22.899055,-46.979964\n\n")
-	input('Pressione ENTER para continuar...')
+	with open('pontos-de-coletas-residuos.csv', encoding="utf8") as f:
+		reader = csv.reader(f)
+		clear('Pontos de coleta mais próximo de você')
+		for row in reader:
+			print(row[4])
+			print('Enderço: ', row[2], '.', row[3])
+			print('Tipos de residuos: ', row[0])
+			print('---------------------------')
+		input('Pressione ENTER para continuar...')
 ### --- FIm da Função que mostra todos os locais disponiveis para reciclagem --- ###
 
 
