@@ -1,3 +1,4 @@
+### --- Início da Primeira função, definida como opção número #1 --- ###
 from math import radians, cos, sin, asin, sqrt
 import csv
 import os
@@ -99,30 +100,53 @@ def pontoColetaNearMe():
 			print('---------------------------')
 		# ----- Mostrando resultado para o usuário ----
 		input('Pressione ENTER para continuar...')
+### --- Fim da Primeira função, definida como opção número #1 --- ###
 
 
+### --- Inicio da Função que mostra todos os locais disponiveis para reciclagem --- ###
 def allPontos():
-	pass
+	print("------------------------------------------")
+	print("MATERIAIS / CIDADE / RUA / COORDENADAS")
+	print("------------------------------------------\n\n")
+
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Dante Suriani, 2-382,Chácara Cneo,Ecoponto Jardim / -22.903883,-47.105823\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Dr Lázaro Pinto Barroso, 700',Cidade Satélite Íris ,Cooperativa de Trabalho dos Catadores de Materiais Recicláveis / -22.930921,-47.151572\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Av. Santa Isabel, 2300',Barçao Geraldo,Ecoponto Ponto Verde / -22.817622,-47.097850\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Saldanha da Gama, 77',Vila Costa e Silva,Ecoponto Vila Costa e Silva / -22.855585,-47.067583\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Manoel Gomes Ferreira, 42,Parque Tropical ,Ecoponto Vila União / -22.936055,-47.118054\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Av. Mal. Rondon, ',Jardim Chapadão,Ecoponto Jardim Eulina / -22.892240,-47.100945\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Parque Ecologico Campinas,Parque Ecologico,Ponto Verde Parque Ecológico / -22.899910,-47.019531\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / R. Estácio de Sá, 577',Jardim Santa Genebra,Cooperativa de Recicláveis Santa Genebra / -22.851818,-47.075009\n")
+	print("Pneus / Campinas / Av. Prefeito Faria Lima, 630 Parque Italia,Descarte de Pneus/Departamento de Limpeza Urbana / -22.915431,-47.071117\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Francisco Theodoro, 1050',Vila Industrial,Região Central / -22.908967,-47.066968\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Celso Soares Colto,Parque Itajaí,Parque Itajaí / -22.961648,-47.192331\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Placida Pretini,Parque São Jorge,Parque São Jorge / -22.895982,-47.157851\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua José Martins Lourenço,Jardim Bom Sucesso,Jardim São Gabriel / -22.942435,-47.029831\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua dos Cambarás, 200',Vila Boa Vista,Parque via Norte / -22.885794,-47.128180\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Góia Jr.,Res. Parque Rio Das Pedras,Vida Nova /-22.797185,-47.083559\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Avenida São José dos Campos,Parque São Martinho,Vila Campo Sales / -22.946911,-47.055111\n")
+	print("Vidros, Metais, Plásticos e Papéis / Campinas / Rua Dom Pedro, 464',Jardim Conceição,Sousas / -22.899055,-46.979964\n\n")
+	input('Pressione ENTER para continuar...')
+### --- FIm da Função que mostra todos os locais disponiveis para reciclagem --- ###
 
 
+### --- Inicio da função sobre --- ###
 def sobre():
 	clear('Sobre Nós')
 	print("Feito por Alejandro Montes - RA:")
 	print("Feito por Igor Carvalho - RA: ")
 	print("Feito por Roger - RA: ")
 	print("Feito por Thiago M. Nóbrega - RA:F028BF-2")
-	print("Feito por Wilson Felipe - RA: ")
+	print("Feito por Wilson Felipe - RA: \n")
 	input('Pressione ENTER para continuar...')
+### --- Fim da função sobre --- ###
 
 
-def cadastrarPonto():
-	pass
-
-
+### --- Inicio do Menu --- ###
 while True:
 	clear("Reciclagem Perto de Casa")
 	try:
-		choice = int(input("\n1. Ponto de coleta mais próximo\n2. Todos pontos de coleta\n3. Cadastrar ponto de coleta\n4. Sobre nós\n5. Sair\n\nDigite uma opção: "))
+		choice = int(input("\n1. Ponto de coleta mais próximo\n2. Todos pontos de coleta\n3. Sobre nós\n4. Sair\n\nDigite uma opção: "))
 	except:
 		pass
 	else:
@@ -131,8 +155,7 @@ while True:
 		elif choice == 2:
 			allPontos()
 		elif choice == 3:
-			cadastrarPonto()
-		elif choice == 4:
 			sobre()
-		elif choice == 5:
+		elif choice == 4:
 			exit()
+### --- Fim do Menu --- ###
