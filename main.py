@@ -107,7 +107,7 @@ def pontoColetaNearMe():
 def allPontos():
 	with open('pontos-de-coletas-residuos.csv', encoding="utf8") as f:
 		reader = csv.reader(f)
-		clear('Pontos de coleta mais próximo de você')
+		clear('Todos pontos de coleta cadastrado')
 		for row in reader:
 			print(row[4])
 			print('Enderço: ', row[2], '.', row[3])
