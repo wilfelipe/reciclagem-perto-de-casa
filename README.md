@@ -35,7 +35,7 @@ Agora, digite os seguintes comandos individualmente separados por um enter no te
 
 	python3 main.py
 	
-Baixando suas dependência, com uma das duas alternativas para conseguir rodar o código e rodando o arquivo main.py, o usuário recebe o menu:
+Baixando suas dependência, com uma das duas alternativas apresentadas, o usuário estará pronto para rodar o arquivo main.py, que por sua vez cumpre seu objetivo:
 
 	-------------------- Reciclagem Perto de Casa --------------------
 
