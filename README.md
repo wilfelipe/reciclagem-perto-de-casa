@@ -49,7 +49,7 @@ Quando o usuário digitar 1 e, em seguida enter, o terminal limpa todas as opç�
 5. Papéis 
 
 
-em seguida a localização do usuário é necessária:
+Ao ser selecionada a opção do usuário, a localização do usuário é pedida como demonstrado abaixo:
 
 
 
