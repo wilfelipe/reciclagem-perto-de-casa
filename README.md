@@ -96,7 +96,7 @@ Voltando para o menu, temos as seguintes opções:
 
 
 
-2. Todos pontos de coleta
+	2. Todos pontos de coleta
 
 Essa opção mostra todos os pontos de coleta armazenado no arquivo .csv do projeto.
 
@@ -104,12 +104,12 @@ Essa opção mostra todos os pontos de coleta armazenado no arquivo .csv do proj
 já a opção 3 mostra os nomes do colaboradores do código e seus repectivos RA's:
 
 
-3. Sobre nós
+	3. Sobre nós
 
 E por fim, na opção 4 o usuário consegue fechar o aplicativo.
 
 
-4. Sair
+	4. Sair
 
 
 Final da Documentação: No final das contas ficamos muito feliz com o resultado, acreditamos que conseguimos atingir todos os objetivos e desafios da APS.
