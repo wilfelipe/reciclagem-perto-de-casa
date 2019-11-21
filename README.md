@@ -20,7 +20,7 @@ Para conseguir visualizar o projeto no seu próprio navegador você pode seguir 
 
 	https://gitpod.io/#https://github.com/wilfelipe/reciclagem-perto-de-casa
 	
-Tenha certeza que você tem a extensão do gitpad, é só clicar o link acima que ele vai baixar para você a extensão no navegador e em seguida abrirá o projeto.
+É só clicar o link acima que ele vai baixar para você a extensão no navegador o que vai permitir que você tenha certeza que você tem a extensão do gitpod, em seguida abrirá o projeto.
 
 Digite os seguintes comandos individualmente separados por um enter no terminal do gitpod:
 
