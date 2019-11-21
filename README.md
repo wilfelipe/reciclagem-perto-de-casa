@@ -10,22 +10,22 @@ Documentação: O usuário chega a ter quatro opções quando ele roda o program
 
  Mas antes de rodar o código é necessário seguir os seguintes comandos no terminal (se estiver utilizando nativamente python 3.7.4, isto é.):
 
-pip install geopy
+	pip install geopy
 
-python main.py
+	python main.py
 
 Para conseguir visualizar o projeto no seu próprio browser você pode seguir o seguinte link:
 
-	https://gitpod.io/~#https://github.com/wilfelipe/reciclagem-perto-de-casa
+	https://gitpod.io/#https://github.com/wilfelipe/reciclagem-perto-de-casa
 	
 Tenha certeza que você tem a extensão do gitpad, é só clicar o link acima que ele vai baixar para você a extensão no navegador e em seguida abrirá o projeto.
 
 Digite os seguintes comandos individualmente separados por um enter no terminal do gitpod:
 pip3 install geopy
 
-python3 main.py
+	python3 main.py
 
-	Quando o usuário digita 1 e em seguida enter o terminal limpa e novas opções surgem perguntando o usuário qual o tipo do material que o usuário gostaria de reciclar:
+Quando o usuário digita 1 e em seguida enter o terminal limpa e novas opções surgem perguntando o usuário qual o tipo do material que o usuário gostaria de reciclar:
 	
 -------------------- O que você deseja reciclar? --------------------
 1. Vidros
