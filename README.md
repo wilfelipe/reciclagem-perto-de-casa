@@ -1,7 +1,7 @@
 # reciclagem-perto-de-casa
 Trabalho em grupo da matéria de Introdução a Linguagem Estruturada pela UNIP de Campinas.
 
-O objetivo do aplicativo é mostrar para o usuário pontos de coleta de lixo recíclavel mais próximo da localização fornecida pelo mesmo.
+O objetivo do aplicativo é mostrar para o usuário pontos de coleta de lixo recíclavel mais próximos da localização fornecida pelo mesmo.
 
 Documentação: O usuário chega a ter quatro opções quando ele roda o programa, seja pelo terminal, seja pelo navegador:
 
