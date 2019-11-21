@@ -122,7 +122,7 @@ def sobre():
 	clear('Sobre Nós')
 	print("Feito por Alejandro   de   Oliveira   Montes - RA:F0460B-3")
 	print("Feito por Igor   Carvalho   Tavares  - RA:N39088-3 ")
-	print("Feito por Roger - RA: ")
+	print("Feito por Roger - RA:F1281f-0")
 	print("Feito por Thiago M. Nóbrega - RA:F028BF-2")
 	print("Feito por Wilson   Felipe   Martins   Carvalho - RA:N472BJ-7 \n")
 	input('Pressione ENTER para continuar...')
