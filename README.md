@@ -1,7 +1,7 @@
 # reciclagem-perto-de-casa
 Trabalho em grupo da matéria de Introdução a Linguagem Estruturada pela UNIP de Campinas.
 
-O objetivo do aplicativo é mostrar para o usuário pontos de coleta de lixo recíclavel mais próximos da localização fornecida pelo mesmo.
+O objetivo do aplicativo é mostrar para o usuário os pontos de coleta de lixo recíclavel mais próximos da localização fornecida pelos dados recebidos.
 
 Documentação: O usuário recebe quatro opções quando o programa rodar, tanto pelo terminal, quanto pelo navegador:
 
@@ -27,8 +27,18 @@ Digite os seguintes comandos individualmente separados por um enter no terminal 
 	pip3 install geopy
 
 	python3 main.py
+	
+Feito isso, o usuário recebe as seguintes opções novamente:
 
-Quando o usuário digitar 1 e em seguida enter o terminal limpa todas as opções da tela e novas opções surgem perguntando o usuário qual o tipo do material que o usuário gostaria de reciclar:
+-------------------- Reciclagem Perto de Casa --------------------
+
+1. Ponto de coleta mais próximo
+2. Todos pontos de coleta
+3. Sobre nós
+4. Sair
+
+
+Quando o usuário digitar 1 e, em seguida enter, o terminal limpa todas as opções da tela e novas opções surgem perguntando o usuário qual o tipo do material que o usuário gostaria de reciclar:
 	
 -------------------- O que você deseja reciclar? --------------------
 
@@ -45,7 +55,7 @@ Cidade: Campinas
 Estado: São Paulo
 Endereço: Norte Sul
 
-E como resultado os lugares de específica reciclagem mais próximos do usuário são imprimidos no terminal.
+E como resultado:
 
 Região Central
 
@@ -63,3 +73,14 @@ Tipos de residuos:  Vidros,Metais,Plásticos,Papéis
 
 Final da Documentação: No final das contas ficamos muito feliz com o resultado, acreditamos que conseguimos atingir todos os objetivos e desafios da APS.
 
+Voltando para o menu, temos as seguintes opções:
+
+2. Todos pontos de coleta
+
+que mostra todos os pontoss de coleta armazenado no arquivo .csv.
+
+já a opção 3 mostra os nomes do colaboradores do código e seus repectivos RA's:
+
+3. Sobre nós
+
+E por fim, na opção 4 o usuário consegue fechar o aplicativo.
