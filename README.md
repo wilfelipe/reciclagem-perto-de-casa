@@ -45,7 +45,7 @@ Baixando suas dependência, com uma das duas alternativas apresentadas, o usuár
 	4. Sair
 
 
-Quando o usuário digitar 1 e, em seguida enter, o terminal limpa todas as opções da tela e novas opções surgem, perguntando ao usuário qual o tipo do material que o usuário gostaria de reciclar:
+Quando o usuário digitar "1" e, em seguida "enter", o terminal limpa todas as opções da tela e novas opções surgem, perguntando ao usuário qual o tipo do material que o usuário gostaria de reciclar:
 	
 	-------------------- O que você deseja reciclar? --------------------
 
@@ -98,15 +98,15 @@ Voltando para o menu, temos as seguintes opções:
 
 	2. Todos pontos de coleta
 
-Essa opção mostra todos os pontos de coleta armazenados no arquivo .csv do projeto.
+Ao digitar "2" e em seguida "enter", essa opção mostra todos os pontos de coleta armazenados no arquivo .csv do projeto.
 
 
-já a opção 3 mostra os nomes do colaboradores do código e seus repectivos RA's:
+já a opção 3, ao digitar "3" e em seguida "enter", mostra-se os nomes dos colaboradores do código e seus repectivos RA's:
 
 
 	3. Sobre nós
 
-E por fim, na opção 4 o usuário consegue fechar o aplicativo.
+E por fim, na opção 4, ao digitar "4" e em seguida "enter", o usuário consegue fechar o aplicativo.
 
 
 	4. Sair
