@@ -21,7 +21,8 @@ Para conseguir visualizar o projeto no seu próprio browser você pode seguir o 
 Tenha certeza que você tem a extensão do gitpad, é só clicar o link acima que ele vai baixar para você a extensão no navegador e em seguida abrirá o projeto.
 
 Digite os seguintes comandos individualmente separados por um enter no terminal do gitpod:
-pip3 install geopy
+
+	pip3 install geopy
 
 	python3 main.py
 
