@@ -47,7 +47,11 @@ Quando o usuário digitar 1 e, em seguida enter, o terminal limpa todas as opç�
 3. Plásticos
 4. Pneus
 5. Papéis 
+
+
 em seguida a localização do usuário é necessária:
+
+
 
 -------------------- Qual o seu endereço? --------------------
 
