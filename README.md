@@ -20,7 +20,7 @@ Para conseguir visualizar o projeto no seu próprio navegador você pode seguir 
 
 	https://gitpod.io/#https://github.com/wilfelipe/reciclagem-perto-de-casa
 	
-É só clicar o link acima que ele vai baixar para você a extensão no navegador o que vai permitir que você tenha certeza que você tem a extensão do gitpod, em seguida abrirá o projeto.
+É só clicar o link acima que ele vai baixar para você a extensão no navegador necessária para rodar o projeto sem ter que baixar nenhuma arquivo. Seguindo o link vai permitir que você tenha certeza que você tem a extensão do gitpod, em seguida abrirá o projeto.
 
 Digite os seguintes comandos individualmente separados por um enter no terminal do gitpod:
 
@@ -28,7 +28,7 @@ Digite os seguintes comandos individualmente separados por um enter no terminal 
 
 	python3 main.py
 	
-Feito isso, o usuário recebe as seguintes opções novamente:
+Feito isso, o usuário recebe as seguintes opções que mencionamos no começo da documentação:
 
 -------------------- Reciclagem Perto de Casa --------------------
 
