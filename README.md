@@ -35,7 +35,7 @@ Agora, digite os seguintes comandos individualmente separados por um enter no te
 
 	python3 main.py
 	
-Baixando suas dependência, com uma das duas alternativas apresentadas, o usuário estará pronto para rodar o arquivo main.py, que por sua vez cumpre seu objetivo:
+Baixando suas dependência, com uma das duas alternativas apresentadas, o usuário estará pronto para rodar o arquivo main.py, que por sua vez cumpre o seu objetivo:
 
 	-------------------- Reciclagem Perto de Casa --------------------
 
@@ -45,7 +45,7 @@ Baixando suas dependência, com uma das duas alternativas apresentadas, o usuár
 	4. Sair
 
 
-Quando o usuário digitar "1" e, em seguida "enter", o terminal limpa todas as opções da tela e novas opções surgem, perguntando ao usuário qual o tipo do material que o usuário gostaria de reciclar:
+Quando o usuário digitar "1" e, em seguida "enter", o terminal limpa todas as opções da tela e novas opções surgem, perguntando ao usuário qual tipo do material que o usuário gostaria de reciclar:
 	
 	-------------------- O que você deseja reciclar? --------------------
 
@@ -56,7 +56,7 @@ Quando o usuário digitar "1" e, em seguida "enter", o terminal limpa todas as o
 	5. Papéis 
 
 
-Ao ser selecionada a opção do usuário, a localização do usuário é requesitada como demonstrado abaixo:
+Ao ser selecionada a opção, a localização do usuário é requesitada como demonstrado abaixo:
 
 
 
