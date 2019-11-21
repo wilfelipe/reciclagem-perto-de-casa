@@ -63,10 +63,16 @@ Ao ser selecionada a opção do usuário, a localização do usuário é pedida 
 -------------------- Qual o seu endereço? --------------------
 
 Cidade: Campinas
+
 Estado: São Paulo
+
 Endereço: Norte Sul
 
+
+
 E como resultado:
+
+
 
 Região Central
 
