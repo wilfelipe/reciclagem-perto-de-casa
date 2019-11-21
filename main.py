@@ -71,7 +71,7 @@ def pontoColetaNearMe():
 				else:
 					modoPesquisa = 'coordenadas'
 				erro = 0
-	# Abrindo dataset com todos os pontos de coleta na região de Recife
+	# Abrindo dataset com todos os pontos de coleta na região
 	with open('pontos-de-coletas-residuos.csv', encoding="utf8") as f:
 		reader = csv.reader(f)
 
