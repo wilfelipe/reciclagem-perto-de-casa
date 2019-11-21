@@ -12,7 +12,7 @@ Quando o programa rodar, tanto pelo terminal, quanto pelo navegador, o usuário 
 	3. Sobre nós
 	4. Sair
 
- Antes de rodar o código é necessário seguir os seguintes comandos no terminal (se estiver utilizando nativamente python 3.7.4, isto é.):
+ Antes de rodar o código é necessário seguir os seguintes comandos no terminal. Recomendamos que sigam uma das duas opções para baixar as depêndencias, veja a primeira para ver se o caso (isto é, se estiver utilizando nativamente python 3.x):
 
 	pip install geopy
 
