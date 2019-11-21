@@ -15,13 +15,18 @@ pip install geopy
 python main.py
 
 Para conseguir visualizar o projeto no seu próprio browser você pode seguir o seguinte link:
+
 	https://gitpod.io/~#https://github.com/wilfelipe/reciclagem-perto-de-casa
+	
 Tenha certeza que você tem a extensão do gitpad, é só clicar o link acima que ele vai baixar para você a extensão no navegador e em seguida abrirá o projeto.
-Digite os seguintes comandos individualmente separados por um enter no terminal:
-gitpod /workspace/reciclagem-perto-de-casa $ pip3 install geopy
-gitpod /workspace/reciclagem-perto-de-casa $ python3 main.py
+
+Digite os seguintes comandos individualmente separados por um enter no terminal do gitpod:
+pip3 install geopy
+
+python3 main.py
 
 	Quando o usuário digita 1 e em seguida enter o terminal limpa e novas opções surgem perguntando o usuário qual o tipo do material que o usuário gostaria de reciclar:
+	
 -------------------- O que você deseja reciclar? --------------------
 1. Vidros
 2. Metais
@@ -29,6 +34,7 @@ gitpod /workspace/reciclagem-perto-de-casa $ python3 main.py
 4. Pneus
 5. Papéis 
 em seguida a localização do usuário é necessária:
+
 -------------------- Qual o seu endereço? --------------------
 Cidade: Campinas
 Estado: São Paulo
