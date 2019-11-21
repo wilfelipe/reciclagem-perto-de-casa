@@ -1,5 +1,5 @@
 # reciclagem-perto-de-casa
-Trabalho em grupo da matéria de Introdução a Linguagem Estruturada pela UNIP de Campinas.
+Trabalho em grupo da matéria de Introdução à Linguagem Estruturada pela UNIP de Campinas.
 
 O objetivo do aplicativo é mostrar para o usuário os pontos de coleta de lixo recíclaveis mais próximos da localização fornecida.
 
