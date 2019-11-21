@@ -28,7 +28,7 @@ Digite os seguintes comandos individualmente separados por um enter no terminal 
 
 	python3 main.py
 
-Quando o usuário digita 1 e em seguida enter o terminal limpa e novas opções surgem perguntando o usuário qual o tipo do material que o usuário gostaria de reciclar:
+Quando o usuário digitar 1 e em seguida enter o terminal limpa todas as opções da tela e novas opções surgem perguntando o usuário qual o tipo do material que o usuário gostaria de reciclar:
 	
 -------------------- O que você deseja reciclar? --------------------
 
