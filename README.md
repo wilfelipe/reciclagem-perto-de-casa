@@ -3,7 +3,7 @@ Trabalho em grupo da matéria de Introdução a Linguagem Estruturada pela UNIP 
 
 O objetivo do aplicativo é mostrar para o usuário pontos de coleta de lixo recíclavel mais próximos da localização fornecida pelo mesmo.
 
-Documentação: O usuário chega a receber quatro opções quando ele roda o programa, tanto pelo terminal, quanto pelo navegador:
+Documentação: O usuário recebe quatro opções quando o programa rodar, tanto pelo terminal, quanto pelo navegador:
 
 1. Ponto de coleta mais próximo
 2. Todos pontos de coleta
