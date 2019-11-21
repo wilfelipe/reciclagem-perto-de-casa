@@ -76,12 +76,9 @@ E como resultado:
 
 	Região Central
 
-
 	Distância:  2.23 Km
 
-
 	Enderço:  Rua Francisco Theodoro, 1050 . Campinas
-
 
 	Tipos de residuos:  Vidros,Metais,Plásticos,Papéis
 
