@@ -37,23 +37,23 @@ Agora, digite os seguintes comandos individualmente separados por um enter no te
 	
 Feito uma das duas alternativas para conseguir rodar o código, o usuário recebe o menu:
 
--------------------- Reciclagem Perto de Casa --------------------
+	-------------------- Reciclagem Perto de Casa --------------------
 
-1. Ponto de coleta mais próximo
-2. Todos pontos de coleta
-3. Sobre nós
-4. Sair
+	1. Ponto de coleta mais próximo
+	2. Todos pontos de coleta
+	3. Sobre nós
+	4. Sair
 
 
 Quando o usuário digitar 1 e, em seguida enter, o terminal limpa todas as opções da tela e novas opções surgem, perguntando ao usuário qual o tipo do material que o usuário gostaria de reciclar:
 	
--------------------- O que você deseja reciclar? --------------------
+	-------------------- O que você deseja reciclar? --------------------
 
-1. Vidros
-2. Metais
-3. Plásticos
-4. Pneus
-5. Papéis 
+	1. Vidros
+	2. Metais
+	3. Plásticos
+	4. Pneus
+	5. Papéis 
 
 
 Ao ser selecionada a opção do usuário, a localização do usuário é pedida como demonstrado abaixo:
