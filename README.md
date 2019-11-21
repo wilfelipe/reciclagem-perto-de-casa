@@ -22,9 +22,14 @@ Para conseguir visualizar e rodar o projeto no seu próprio navegador, tanto des
 
 	https://gitpod.io/#https://github.com/wilfelipe/reciclagem-perto-de-casa
 	
-É só clicar o link acima que ele vai baixar para você a extensão no navegador necessária para rodar o projeto sem ter que baixar nenhum arquivo ou se quer o python correto. Seguindo o link vai permitir que você tenha certeza que você tem a extensão do gitpod. Devemos resaltar que recomendamos o uso do gitpod em qualquer repositório do github. Em seguida abrirá o projeto.
+É só clicar o link acima que ele vai baixar para você a extensão no navegador necessária para rodar o projeto sem ter que baixar nenhum arquivo ou se quer o python correto. Seguindo o link vai permitir que você tenha certeza que você tem a extensão do gitpod. Devemos resaltar que recomendamos o uso do gitpod em qualquer repositório do github. 
 
-Digite os seguintes comandos individualmente separados por um enter no terminal do gitpod:
+
+Em seguida abrirá o projeto.
+
+
+
+Agora, digite os seguintes comandos individualmente separados por um enter no terminal do gitpod:
 
 	pip3 install geopy
 
