@@ -46,9 +46,17 @@ Endereço: Norte Sul
 E como resultado os lugares de específica reciclagem mais próximos do usuário são imprimidos no terminal.
 
 Região Central
+
+
 Distância:  2.23 Km
+
+
 Enderço:  Rua Francisco Theodoro, 1050 . Campinas
+
+
 Tipos de residuos:  Vidros,Metais,Plásticos,Papéis
+
+
 ---------------------------
 
 Final da Documentação: No final das contas ficamos muito feliz com o resultado, acreditamos que conseguimos atingir todos os objetivos e desafios da APS.
