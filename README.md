@@ -11,6 +11,7 @@ Documentação: O usuário chega a ter quatro opções quando ele roda o program
  Mas antes de rodar o código é necessário seguir os seguintes comandos no terminal (se estiver utilizando nativamente python 3.7.4, isto é.):
 
 pip install geopy
+
 python main.py
 
 Para conseguir visualizar o projeto no seu próprio browser você pode seguir o seguinte link:
