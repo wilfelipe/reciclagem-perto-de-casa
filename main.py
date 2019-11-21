@@ -120,11 +120,11 @@ def allPontos():
 ### --- Inicio da função sobre --- ###
 def sobre():
 	clear('Sobre Nós')
-	print("Feito por Alejandro Montes - RA:")
-	print("Feito por Igor Carvalho - RA: ")
+	print("Feito por Alejandro   de   Oliveira   Montes - RA:F0460B-3")
+	print("Feito por Igor   Carvalho   Tavares  - RA:N39088-3 ")
 	print("Feito por Roger - RA: ")
 	print("Feito por Thiago M. Nóbrega - RA:F028BF-2")
-	print("Feito por Wilson Felipe - RA: \n")
+	print("Feito por Wilson   Felipe   Martins   Carvalho - RA:N472BJ-7 \n")
 	input('Pressione ENTER para continuar...')
 ### --- Fim da função sobre --- ###
 
