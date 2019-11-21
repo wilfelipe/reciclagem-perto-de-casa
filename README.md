@@ -28,7 +28,7 @@ Digite os seguintes comandos individualmente separados por um enter no terminal 
 
 	python3 main.py
 	
-Feito isso, o usuário recebe as seguintes opções que mencionamos no começo da documentação:
+Feito uma das duas alternativas para conseguir rodar o código, o usuário recebe as seguintes e opções que mencionamos no começo da documentação:
 
 -------------------- Reciclagem Perto de Casa --------------------
 
