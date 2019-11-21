@@ -1,4 +1,3 @@
-from math import radians, cos, sin, asin, sqrt
 import csv
 import os
 from geopy.distance import geodesic
@@ -10,28 +9,45 @@ def clear(mensagem):
 	os.system('cls')
 	print('--------------------', mensagem, '--------------------')
 
-
-'''
-	Essa função recebe recebe duas listas como parâmetro, a primeira lista contendendo as coordenadas digita pelo usuário, e a segunda as coordenas do ponto de coleta, onde o primeiro elemento da lista é a latitude e o segundo elemento a longitude. A função retorna a distância, em kilometros entre a localização do usuário e a localização do ponto de coleta. 
-'''
 def distancia(coordenadasUsuario, coordenadasPonto):
 	return geodesic(coordenadasUsuario, coordenadasPonto).miles * 1.609
 
-
 def pontoColetaNearMe():
 	modoPesquisa = 'endereco'
-	erro = 0
+	erro = False
 	while True:
-		clear('Ponto de coleta mais próximo de você')
+		clear('O que você deseja reciclar?')
+		try:
+			choice = int(input("1. Vidros\n2. Metais\n3. Plásticos\n4. Pneus\n5. Papéis\n\nDigite uma opção: "))
+		except:
+			pass
+		else:
+			if choice == 1:
+				produto = 'Vidros'
+				break
+			elif choice == 2:
+				produto = 'Metais'
+				break
+			elif choice == 3:
+				produto = 'Plasticos'
+				break
+			elif choice == 4:
+				produto = 'Pneus'
+				break
+			elif choice == 5:
+				produto = 'Papeis'
+				break
+	while True:
+		clear('Qual o seu endereço?')
 		if modoPesquisa == 'endereco':
 			cidade = input('Cidade: ')
 			estado = input('Estado: ')
 			endereco = input('Endereço: ')
-			loc = geolocator.geocode(endereco + ',' + cidade + ',' + estado, addressdetails=True)
 			try:
+				loc = geolocator.geocode(endereco + ',' + cidade + ',' + estado, addressdetails=True)
 				coordenadasUsuario = [loc.latitude, loc.longitude]
 			except:
-				erro = 1
+				erro = True
 			else:
 				break
 		else:
@@ -39,11 +55,10 @@ def pontoColetaNearMe():
 				coordenadasUsuario = [float(input('Digite sua latitude (Exemplo: -22.9006708): ')), float(
 				input('Digite sua longitude (Exemplo: -47.1672872): '))]  # Entrada das coordenadas do usuário
 			except:
-				erro = 1
+				erro = True
 			else:
 				break
-
-		if erro == 1:
+		if erro:
 			clear("ERRO! Não encontramos seu endereço")
 			try:
 				choice = int(input("1. Tentar novamente\n2. Procurar usando coordenadas\n\nDigite uma opção: "))
@@ -73,24 +88,16 @@ def pontoColetaNearMe():
 		# Row[5] = Latitude do ponto de coleta
 		# Row[6] = Longitude do ponto de coleta
 		for row in reader:
-			# Convertendo valores latitude e longitude de str para float, para que possa ser feito operações matemáticas
 			coordenadasPonto = [float(row[5]), float(row[6])]
-			# Adicionando a distância do ponto de coleta para o usuário mais os dados desse ponto, para a matriz pontosColeta
-			pontosColeta.append([distancia(coordenadasUsuario, coordenadasPonto), row[0], row[1], row[2], row[3], row[4], row[5]])
-			# Organizando lista pela distância, gerada pela função distancia, do mais próximo ao mais distante.
-			pontosColeta.sort()
-
-			# pontosColeta[x][0] = Distância do ponto para o usuário, em Km.
-			# pontosColeta[x][1] = Tipos de residuos
-			# pontosColeta[x][2] = Bairro
-			# pontosColeta[x][3] = Endereço
-			# pontosColeta[x][4] = Complemento
-			# pontosColeta[x][5] = Observação
+			if produto in row[0].split(','):
+				pontosColeta.append([distancia(coordenadasUsuario, coordenadasPonto), row[0], row[1], row[2], row[3], row[4], row[5]]) # Adicionando a distância do ponto de coleta para o usuário mais os dados desse ponto, para a matriz pontosColeta
+		pontosColeta.sort() # Organizando lista pela distância, gerada pela função distancia, do mais próximo ao mais distante.
 
 		# ----- Mostrando resultados para o usuário ----
 		n = 3  # Número de resultados que serão apresentados
+		if len(pontosColeta) < n:
+			n = len(pontosColeta)
 		clear('Pontos de coleta mais próximo de você')
-
 		for i in range(n):
 			print(pontosColeta[i][5])
 			print('Distância: ', round(pontosColeta[i][0], 2), 'Km')
@@ -99,30 +106,40 @@ def pontoColetaNearMe():
 			print('---------------------------')
 		# ----- Mostrando resultado para o usuário ----
 		input('Pressione ENTER para continuar...')
+### --- Fim da Primeira função, definida como opção número #1 --- ###
 
 
+### --- Inicio da Função que mostra todos os locais disponiveis para reciclagem --- ###
 def allPontos():
-	pass
+	with open('pontos-de-coletas-residuos.csv', encoding="utf8") as f:
+		reader = csv.reader(f)
+		clear('Todos pontos de coleta cadastrado')
+		for row in reader:
+			print(row[4])
+			print('Enderço: ', row[2], '.', row[3])
+			print('Tipos de residuos: ', row[0])
+			print('---------------------------')
+		input('Pressione ENTER para continuar...')
+### --- FIm da Função que mostra todos os locais disponiveis para reciclagem --- ###
 
 
+### --- Inicio da função sobre --- ###
 def sobre():
 	clear('Sobre Nós')
-	print("Feito por Alejandro Montes - RA:")
-	print("Feito por Igor Carvalho - RA: ")
-	print("Feito por Roger - RA: ")
+	print("Feito por Alejandro   de   Oliveira   Montes - RA:F0460B-3")
+	print("Feito por Igor   Carvalho   Tavares  - RA:N39088-3 ")
+	print("Feito por Roger - RA:F1281f-0")
 	print("Feito por Thiago M. Nóbrega - RA:F028BF-2")
-	print("Feito por Wilson Felipe - RA: ")
+	print("Feito por Wilson   Felipe   Martins   Carvalho - RA:N472BJ-7 \n")
 	input('Pressione ENTER para continuar...')
+### --- Fim da função sobre --- ###
 
 
-def cadastrarPonto():
-	pass
-
-
+### --- Inicio do Menu --- ###
 while True:
 	clear("Reciclagem Perto de Casa")
 	try:
-		choice = int(input("\n1. Ponto de coleta mais próximo\n2. Todos pontos de coleta\n3. Cadastrar ponto de coleta\n4. Sobre nós\n5. Sair\n\nDigite uma opção: "))
+		choice = int(input("\n1. Ponto de coleta mais próximo\n2. Todos pontos de coleta\n3. Sobre nós\n4. Sair\n\nDigite uma opção: "))
 	except:
 		pass
 	else:
@@ -131,8 +148,7 @@ while True:
 		elif choice == 2:
 			allPontos()
 		elif choice == 3:
-			cadastrarPonto()
-		elif choice == 4:
 			sobre()
-		elif choice == 5:
+		elif choice == 4:
 			exit()
+### --- Fim do Menu --- ###
