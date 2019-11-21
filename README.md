@@ -7,10 +7,10 @@ Documentação:
 
 Quando o programa rodar, tanto pelo terminal, quanto pelo navegador, o usuário é introduzido ao menu:
 
-1. Ponto de coleta mais próximo
-2. Todos pontos de coleta
-3. Sobre nós
-4. Sair
+	1. Ponto de coleta mais próximo
+	2. Todos pontos de coleta
+	3. Sobre nós
+	4. Sair
 
  Mas antes de rodar o código é necessário seguir os seguintes comandos no terminal (se estiver utilizando nativamente python 3.7.4, isto é.):
 
