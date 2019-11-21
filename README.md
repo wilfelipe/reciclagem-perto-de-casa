@@ -18,7 +18,7 @@ Quando o programa rodar, tanto pelo terminal, quanto pelo navegador, o usuário 
 
 	python main.py
 
-Para conseguir visualizar o projeto no seu próprio navegador você pode seguir o seguinte link:
+Para conseguir visualizar e rodar o projeto no seu próprio navegador, tanto desktop, quanto mobile, você pode seguir o seguinte link:
 
 	https://gitpod.io/#https://github.com/wilfelipe/reciclagem-perto-de-casa
 	
