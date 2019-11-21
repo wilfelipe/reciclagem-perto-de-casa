@@ -28,6 +28,7 @@ pip3 install geopy
 Quando o usuário digita 1 e em seguida enter o terminal limpa e novas opções surgem perguntando o usuário qual o tipo do material que o usuário gostaria de reciclar:
 	
 -------------------- O que você deseja reciclar? --------------------
+
 1. Vidros
 2. Metais
 3. Plásticos
@@ -36,6 +37,7 @@ Quando o usuário digita 1 e em seguida enter o terminal limpa e novas opções 
 em seguida a localização do usuário é necessária:
 
 -------------------- Qual o seu endereço? --------------------
+
 Cidade: Campinas
 Estado: São Paulo
 Endereço: Norte Sul
