@@ -22,7 +22,7 @@ Alterinativamente, para conseguir visualizar e rodar o projeto no seu próprio n
 
 	https://gitpod.io/#https://github.com/wilfelipe/reciclagem-perto-de-casa
 	
-É só clicar o link acima que ele vai baixar para você a extensão no navegador necessária para rodar o projeto sem ter que baixar nenhum arquivo ou se quer o python correto. Seguindo o link vai permitir que você tenha certeza que você tem a extensão do gitpod. Devemos resaltar que recomendamos o uso do gitpod em qualquer repositório do github. 
+Clicando no link acima será baixado, caso já não tenha, a extensão necessária para rodar o projeto no navegador, sem ter que baixar nenhum arquivo, nem se quer python. Seguindo o link vai permitir que você tenha certeza que você tem a extensão do gitpod. Devemos resaltar que recomendamos o uso do gitpod em qualquer repositório do github. 
 
 
 Em seguida abrirá o projeto.
