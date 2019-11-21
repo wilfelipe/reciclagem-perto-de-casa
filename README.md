@@ -60,33 +60,33 @@ Ao ser selecionada a opção do usuário, a localização do usuário é pedida 
 
 
 
--------------------- Qual o seu endereço? --------------------
+	-------------------- Qual o seu endereço? --------------------
 
-Cidade: Campinas
+	Cidade: Campinas
 
-Estado: São Paulo
+	Estado: São Paulo
 
-Endereço: Norte Sul
-
-
-
-	E como resultado:
+	Endereço: Norte Sul
 
 
 
-Região Central
+E como resultado:
 
 
-Distância:  2.23 Km
+
+	Região Central
 
 
-Enderço:  Rua Francisco Theodoro, 1050 . Campinas
+	Distância:  2.23 Km
 
 
-Tipos de residuos:  Vidros,Metais,Plásticos,Papéis
+	Enderço:  Rua Francisco Theodoro, 1050 . Campinas
 
 
----------------------------
+	Tipos de residuos:  Vidros,Metais,Plásticos,Papéis
+
+
+	---------------------------
 
 
 
