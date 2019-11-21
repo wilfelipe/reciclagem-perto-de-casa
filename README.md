@@ -38,7 +38,7 @@ Feito uma das duas alternativas para conseguir rodar o código, o usuário receb
 4. Sair
 
 
-Quando o usuário digitar 1 e, em seguida enter, o terminal limpa todas as opções da tela e novas opções surgem perguntando o usuário qual o tipo do material que o usuário gostaria de reciclar:
+Quando o usuário digitar 1 e, em seguida enter, o terminal limpa todas as opções da tela e novas opções surgem, perguntando ao usuário qual o tipo do material que o usuário gostaria de reciclar:
 	
 -------------------- O que você deseja reciclar? --------------------
 
