@@ -1,3 +1,4 @@
+### --- Início da Primeira função, definida como opção número #1 --- ###
 import csv
 import os
 from geopy.distance import geodesic
@@ -152,3 +153,4 @@ while True:
 		elif choice == 4:
 			exit()
 ### --- Fim do Menu --- ###
+
