@@ -1,8 +1,10 @@
 # reciclagem-perto-de-casa
 Trabalho em grupo da matéria de Introdução a Linguagem Estruturada pela UNIP de Campinas
+
 O objetivo do aplicativo é mostrar para o usuário pontos de coleta de lixo recíclavel mais próximo da localização fornecida pelo mesmo.
 
 Documentação: O usuário chega a ter quatro opções quando ele roda o programa, seja pelo terminal, seja pelo navegador:
+
 1. Ponto de coleta mais próximo
 2. Todos pontos de coleta
 3. Sobre nós
@@ -14,7 +16,7 @@ Documentação: O usuário chega a ter quatro opções quando ele roda o program
 
 	python main.py
 
-Para conseguir visualizar o projeto no seu próprio browser você pode seguir o seguinte link:
+Para conseguir visualizar o projeto no seu próprio navegador você pode seguir o seguinte link:
 
 	https://gitpod.io/#https://github.com/wilfelipe/reciclagem-perto-de-casa
 	
