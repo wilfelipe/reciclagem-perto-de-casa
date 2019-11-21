@@ -70,8 +70,7 @@ Ao ser selecionada a opção, a localização do usuário é requesitada como de
 
 
 
-E como resultado:
-
+Dado uma localização válida, isto é, reconhecida pelo programa, o resultado do código será limpar o terminal e mostrar as localizações mais próximas de acordo com a escolha de material a ser doado.
 
 
 	Região Central
