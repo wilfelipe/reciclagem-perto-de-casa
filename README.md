@@ -1,7 +1,7 @@
 # reciclagem-perto-de-casa
 Trabalho em grupo da matéria de Introdução a Linguagem Estruturada pela UNIP de Campinas.
 
-O objetivo do aplicativo é mostrar para o usuário os pontos de coleta de lixo recíclaveis mais próximos da localização fornecida pelos dados recebidos.
+O objetivo do aplicativo é mostrar para o usuário os pontos de coleta de lixo recíclaveis mais próximos da localização fornecida.
 
 Documentação: O usuário recebe quatro opções quando o programa rodar, tanto pelo terminal, quanto pelo navegador:
 
@@ -85,7 +85,8 @@ Voltando para o menu, temos as seguintes opções:
 
 2. Todos pontos de coleta
 
-que mostra todos os pontoss de coleta armazenado no arquivo .csv.
+Essa opção mostra todos os pontos de coleta armazenado no arquivo .csv do projeto.
+
 
 já a opção 3 mostra os nomes do colaboradores do código e seus repectivos RA's:
 
@@ -93,6 +94,9 @@ já a opção 3 mostra os nomes do colaboradores do código e seus repectivos RA
 3. Sobre nós
 
 E por fim, na opção 4 o usuário consegue fechar o aplicativo.
+
+
+4. Sair
 
 
 Final da Documentação: No final das contas ficamos muito feliz com o resultado, acreditamos que conseguimos atingir todos os objetivos e desafios da APS.
